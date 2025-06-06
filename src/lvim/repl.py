@@ -111,6 +111,7 @@ class REPL(PromptSession[str]):
 
         if not self.config_path.exists():
             logger.debug(f"No lvim config file at {self.config_path}")
+            return
 
         # Run the config file in an empty namespace
         try:
