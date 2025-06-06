@@ -1,6 +1,6 @@
 [project]
 name = "lvim"
-version = "0.0.2"
+version = "0.0.3"
 license = {file = "LICENSE"}
 description = "a remote control interpreter for neovim"
 authors = [
