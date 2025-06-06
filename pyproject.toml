@@ -23,6 +23,7 @@ dependencies = [
     "invoke>=2.2.0",
     "platformdirs>=4.3.8",
     "prompt-toolkit>=3.0.51",
+    "pygments>=2.19.1",
     "pynvim>=0.5.2",
 ]
 

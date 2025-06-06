@@ -216,6 +216,7 @@ dependencies = [
     { name = "invoke" },
     { name = "platformdirs" },
     { name = "prompt-toolkit" },
+    { name = "pygments" },
     { name = "pynvim" },
 ]
 
@@ -247,6 +248,7 @@ requires-dist = [
     { name = "prompt-toolkit", specifier = ">=3.0.51" },
     { name = "ptpython", marker = "extra == 'ipy'", specifier = ">=3.0.30" },
     { name = "ptpython", marker = "extra == 'py'", specifier = ">=3.0.30" },
+    { name = "pygments", specifier = ">=2.19.1" },
     { name = "pynvim", specifier = ">=0.5.2" },
     { name = "pyre-check", marker = "extra == 'dev'", specifier = ">=0.9.23" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.11.11" },
