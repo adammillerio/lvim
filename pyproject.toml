@@ -1,6 +1,6 @@
 [project]
 name = "lvim"
-version = "0.0.1"
+version = "0.0.2"
 license = {file = "LICENSE"}
 description = "a remote control interpreter for neovim"
 authors = [
@@ -19,6 +19,7 @@ classifiers = [
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "click>=8.2.1",
     "invoke>=2.2.0",
     "platformdirs>=4.3.8",
     "prompt-toolkit>=3.0.51",

@@ -209,9 +209,10 @@ wheels = [
 
 [[package]]
 name = "lvim"
-version = "0.0.1"
+version = "0.0.2"
 source = { editable = "." }
 dependencies = [
+    { name = "click" },
     { name = "invoke" },
     { name = "platformdirs" },
     { name = "prompt-toolkit" },
@@ -239,6 +240,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "click", specifier = ">=8.2.1" },
     { name = "invoke", specifier = ">=2.2.0" },
     { name = "ipython", marker = "extra == 'ipy'", specifier = ">=9.3.0" },
     { name = "platformdirs", specifier = ">=4.3.8" },
